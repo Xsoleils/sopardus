@@ -1,0 +1,22 @@
+# Sopardus NVIDIA package list (--nvidia flag)
+# Non-free drivers - requires contrib non-free-firmware in sources.list
+# Secure Boot: MOK enrollment required after install
+
+# NVIDIA driver (Debian 13/Trixie version)
+nvidia-driver
+nvidia-driver-libs:i386
+nvidia-kernel-dkms
+nvidia-settings
+nvidia-vulkan-common
+nvidia-vulkan-icd
+nvidia-egl-common
+nvidia-egl-icd
+
+# Firmware
+firmware-misc-nonfree
+
+# CUDA toolkit (optional, for compute)
+# nvidia-cuda-toolkit
+
+# PRIME/Offload support for laptops
+nvidia-prime

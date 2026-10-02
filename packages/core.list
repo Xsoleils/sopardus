@@ -1,0 +1,41 @@
+# Sopardus core package list for Pardus 25.2 (Debian 13 Trixie)
+# Plasma 6 Wayland minimal set - no kdepim, no Akonadi, no Discover/PackageKit
+
+# Core Plasma
+plasma-desktop
+plasma-workspace
+kwin-wayland
+kwin-x11
+sddm
+qt6-wayland
+
+# System integration
+plasma-nm
+plasma-pa
+bluedevil
+powerdevil
+kscreen
+kde-gtk-config
+breeze-gtk-theme
+xdg-desktop-portal-kde
+
+# Utilities (minimal, curated)
+plasma-systemmonitor
+plasma-firewall
+dolphin
+konsole
+kate
+ark
+spectacle
+gwenview
+okular
+
+# Power management
+power-profiles-daemon
+
+# zram
+systemd-zram-generator
+
+# Fonts
+fonts-noto-core
+fonts-noto-color-emoji
